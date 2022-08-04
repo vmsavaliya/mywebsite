@@ -1102,6 +1102,12 @@ Our Work counter Section Start
     font-size: 2.4rem;
     }
 
+ .section-testimonial .grid-two-column {
+      grid-template-columns: repeat(1, 1fr);
+ }
+
+ 
+
 
 
   /* services section */
@@ -1113,11 +1119,11 @@ Our Work counter Section Start
     font-size: 3rem;
   }
 
-  .contct-constainer{
-    padding: 0 3.2rem;
+  .contact-container{
+    padding: 3.2rem;
   }
 
-  .contct-constainer .grid-two-column{
+  .contact-container .grid-two-column{
     grid-template-columns: 1fr ;
   }
   
@@ -1133,8 +1139,6 @@ Our Work counter Section Start
     }
 
 
-
-
   /* footer section */
   .section-footer .f-about, .section-footer .f-address{
     grid-column: 1/-1;
@@ -1143,9 +1147,8 @@ Our Work counter Section Start
   /* testimonisal */
 
   .section-testimonial .grid-two-column{
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns:repeat(1,1fr);
   }
 
-
-
 }
+

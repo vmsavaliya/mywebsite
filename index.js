@@ -67,8 +67,6 @@ p_btns.addEventListener("click", (e) => {
 });
 
 
-
-
 const myJsmedia = (widthSize) => {
   if (widthSize.matches) {
     /*var swiper =*/ new Swiper(".mySwiper", {
@@ -87,6 +85,10 @@ const myJsmedia = (widthSize) => {
   }
 };
 
+
+
+
+
 const widthSize = window.matchMedia("(max-width: 780px)");
 //Call listener function at run time
 myJsmedia(widthSize);
@@ -95,18 +97,21 @@ widthSize.addEventListener("change", myJsmedia);
 
 
 // ----- Swiper JS ------
-/*var swiper =*/ new Swiper(".mySwiper", {
-  slidesPerView: 2,
-  spaceBetween: 30,
-  autoplay: {
-    delay: 2500,
-    disableOnInteraction: false,
-  },
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-});
+// new Swiper(".mySwiper", {
+//   slidesPerView: 2,
+//   spaceBetween: 30,
+//   autoplay: {
+//     delay: 2500,
+//     disableOnInteraction: false,
+//   },
+//   pagination: {
+//     el: ".swiper-pagination",
+//     clickable: true,
+//   },
+// });
+
+
+
 
 //scroll to top button
 
