@@ -71,9 +71,9 @@ const myJsmedia = (widthSize) => {
   if (widthSize.matches) {
     /*var swiper =*/ new Swiper(".mySwiper", {
       slidesPerView: 1,
-      spaceBetween: 30,
+      spaceBetween: 20,
       autoplay: {
-        delay: 2500,
+        delay: 1000,
         disableOnInteraction: false,
       },
     });
