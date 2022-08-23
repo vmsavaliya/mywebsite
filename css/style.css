@@ -18,7 +18,8 @@
   --overlay: #3e64ff;
   --bg: rgb(249 249 255);
   --icons-bg: rgb(144, 172, 209, 0.2);
-  --gradient: linear-gradient(0deg, rgb(132 144 255) 0%, rgb(98 189 152) 100%);
+/*   --gradient: linear-gradient(0deg, rgb(132 144 255) 0%, rgb(98 189 152) 100%); */
+   --gradient: linear-gradient(0deg, rgb(132 144 255) 0%, rgb(98 189 252) 50%);
   --gradientSupport: -webkit-linear-gradient(
     0deg,
     rgb(132 144 255) 0%,
@@ -408,7 +409,43 @@ li {
 
 
 
+/* ==============================
+    betch Section Start
+   ============================== */
+ 
+   
+   .section-betch {
+    /* background: var(--bg); */
+    /* background-color: #212529; */
+    transition: all 0.7s linear;
+  }
 
+  .section-betch p { 
+    max-width: 60rem;
+  }
+
+   .betch-images {
+    gap: 3.2rem;
+    margin-top: 6.4rem;
+  }
+
+   .betch-images img {
+    width: 50%;
+    border-radius: 40px; 
+    /* box-shadow: 1rem 1rem 5px 2px rgb(80, 79, 79);  */
+    position: relative;
+    overflow: hidden;
+    
+  }
+
+   .betch-images img {
+    
+    border-radius: 2px;
+    position: relative;
+    overflow: hidden;
+    /* border-radius: 50%; */
+  }
+ 
 
 
 
